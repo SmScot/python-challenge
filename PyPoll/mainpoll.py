@@ -8,7 +8,6 @@ polldata_csv = os.path.join("Resources", "election_data.csv")
 
 votes_cast = []
 candidate_total = []
-candidate_percent = []
 
 with open(polldata_csv) as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=",")
